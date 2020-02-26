@@ -1,0 +1,198 @@
+.panel{
+    display: flex;
+    justify-content: center;
+}
+
+/*container for drawing and tools*/
+#playground
+{
+    display: inline-block;
+    min-width: 80%;
+    height: 870px;
+    border: black solid 2px;
+    position: relative;
+}
+.tool-box{
+    display: inline-block;
+    width: 27%;
+    height: 870px;
+    border: black solid 2px;
+    margin-right: 5px;
+}
+
+
+.object-box{
+    width: 80px;
+    height: 40px;
+    border: black solid 2px;
+    display: inline-block;
+}
+.text{
+    font-size: .2em;
+    text-decoration: underline;
+}
+.absolute_position{
+    position: absolute;
+}
+.model{
+    display: inline-block;
+}
+.dashline{
+    width: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2px;
+}
+.arrow1{
+    letter-spacing: -8px;
+
+}
+.line{
+    display: inline-block;
+    letter-spacing: -8px;
+
+}
+.line1{
+    transform: rotate(40deg);
+}
+.line2{
+    transform: rotate(140deg);
+}
+.rectangeXL{
+    width: 10px;
+    height: 50px;
+    border: black solid 2px;
+    background-color: white;
+    display: inline-block;
+}
+
+.textInput{
+    font-size: .2em;
+    padding: 10px;
+    display: inline-block;
+}
+
+.textInput-1{
+    position: relative;
+}
+.transferToTransParent{
+    border-color: transparent;
+    -webkit-appearance: none;
+    outline: medium;
+    background-color: transparent;
+}
+
+.narrow{
+    padding: 0;
+    font-size: .1em;
+    width: 100px;
+}
+.borderBox{
+    border: dashed 2px black;
+    display: inline-block;
+}
+
+
+.arrow2{
+
+    font-weight: bold;
+}
+
+.empty-arrow{
+    letter-spacing: -5px;
+}
+.vertical{
+    transform: rotate(270deg);
+}
+.dash1{
+    font-size: 2px;
+}
+.objectBox{
+    display: inline-block;
+    min-width: 50px;
+    border: solid black 2px;
+    padding: 10px;
+}
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+
+.line0{
+    background-color: black;
+    width: 50px;
+    height: 1px;
+}
+
+.lineContainer{
+    padding: 5px 0;
+
+    display: inline-block;
+}
+.halving——line{
+    background-color: black;
+    width: 100%;
+    height: 1.2px;
+}
+.interfaceBox{
+    border: black solid 2px;
+    display: inline-block;
+    min-width: 100px;
+}
+.componentBox{
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.method-name{
+    font-size: .1em;
+}
+.class-name{
+    font-size: .2em;
+}
+.classBox{
+    border: black solid 2px;
+    display: inline-block;
+    min-width: 100px;
+}
+.no-margin{
+    margin: 0;
+    padding: 0;
+}
+.class-diagram-container{
+    flex: auto;
+    justify-content: space-between;
+}
+.top-bottom-margin{
+    margin: 10px 0;
+}
+.arrow3{
+    letter-spacing: -8px;
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+}
+.left-border{
+    border-left: black solid 1px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+.level{
+    margin: 2px;
+    padding: 3px;
+    border:  black 2px solid;
+}
+.margin-block {
+    display: inline-block;
+    width: 10px;
+
+}
+.dash{
+    font-size: 0.1em;
+
+}
+.small-font{
+    font-size: 0.1em;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mcss.css">
+    <script type="text/javascript" src="draw.js"></script>
+</head>
+<body>
+<div class="panel">
+    <div class="tool-box">
+        <div class="level">
+            <div class="objectBox model width" draggable="true">
+                <input type="text" value="ObjectName" class="narrow">
+                <div class="small-font"></div>
+            </div>
+            <div class="textInput model width" draggable="true"><input type="text" class="narrow" value="text"></div>
+        </div>
+        <div class="level">
+            <div class="dashline model dash small-font" draggable="true" >|<br/>|<br/>|<br/></div>
+
+            <div class="rectangeXL model height" draggable="true"></div>
+        </div>
+        <div class="level">
+            <div class="arrow1 model" draggable="true">--------------------------></div>
+            <div class="margin-block"></div>
+            <div class="arrow2 model" draggable="true">-----></div>
+            <div class="margin-block"></div>
+            <div class="onlyDash model " draggable="true">------</div>
+            <div class="margin-block"></div>
+            <div class="line line1 model" draggable="true">--------</div>
+            <div class="margin-block"></div>
+            <div class="line line2 model" draggable="true">----------</div>
+            <div class="margin-block"></div>
+
+            <div class="vertical line model" draggable="true">----------</div>
+            <div class="margin-block"></div>
+            <div class="horizontal line model" draggable="true">-----------</div>
+            <div class="margin-block"></div>
+
+            <div class="lineContainer model" draggable="true"><div class="line0"></div></div>
+            <div class="margin-block"></div>
+            <div class="model" draggable="true">
+                <div class="arrow3" draggable="true"><-------</div>
+                <div class="left-border"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="level">
+            <div class="empty-arrow model" draggable="true">&Delta;</div>
+        </div>
+
+        <div class="halving——line top-bottom-margin"></div>
+        /*class-diagram-container*/
+        <div class="class-diagram-container">
+            <div class="level">
+                <div class="model interfaceBox width" draggable="true">
+                    <h4 class="text-center no-margin small-font"> &lt;  &lt; interface  &gt; &gt;</h4>
+                    <div class="componentBox">
+                        <input type="text" value="Interface Name"  class="switchInput narrow">
+                        <div class="text-center class-name small-font"></div>
+                    </div>
+                    <div class="halving——line"></div>
+                    <div class="componentBox">
+                        <input type="text" value="method()" class="switchInput narrow">
+                        <div class="method-name small-font"></div>
+                    </div>
+                </div>
+                <div class="model classBox width" draggable="true">
+                    <div class="componentBox">
+                        <input type="text" value="ClassName"  class="switchInput narrow">
+                        <div class="text-center class-name small-font"></div>
+                    </div>
+                    <div class="halving——line"></div>
+                    <div class="componentBox">
+                        <input type="text" value="attribute" class="switchInput narrow">
+                        <div class="method-name small-font"></div>
+                    </div>
+                    <div class="halving——line"></div>
+                    <div class="componentBox">
+                        <input type="text" value="method()" class="switchInput narrow">
+                        <div class="method-name small-font"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="level">
+            <p>/*Instructions*/</p>
+            <div>+ grow - shrink</div>
+            <div>&uarr; move_up &larr; move_left </div>
+            <div>&darr; move_down &rarr; move_right</div>
+            <div>shift+delete delete_element</div>
+        </div>
+
+    </div>
+
+    <div class="container" id="playground">
+        <h2>Drag elements to here:</h2>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
